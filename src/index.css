@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom cursor for the entire page */
+* {
+  cursor: url(/cursor.png), auto !important;
+}
+
+/* Ensure buttons still show pointer behavior with custom cursor */
+button:hover {
+  cursor: url(/cursor.png), pointer !important;
+}
